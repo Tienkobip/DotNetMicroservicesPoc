@@ -137,5 +137,16 @@
       "Host": "localhost",
       "Port": "8761"
     }
-  }
+  },
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Products/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/Products/{everything}",
+      "ServiceName": "ProductService",
+      "UpstreamHttpMethod": [
+        "Get"
+      ]
+    }
+  ]
 }
