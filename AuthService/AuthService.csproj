@@ -13,7 +13,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\th_kien_truc_thiet_ke_phan_mem\lab05\PolicySearchService.Api\PolicySearchService.Api.csproj" />
       <ProjectReference Include="..\DashboardService.Api\DashboardService.Api.csproj" />
     </ItemGroup>
 

@@ -8,6 +8,7 @@
     <ItemGroup>
         <PackageReference Include="MediatR" Version="12.3.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="RawRabbit" Version="1.10.4" />
     </ItemGroup>
 
 </Project>
